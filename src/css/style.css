@@ -1,0 +1,76 @@
+/* Remove default margin */
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #fffff0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #dd4444;
+}
+
+.container {
+    padding: 44px 4px;
+    height: 100%;
+    max-width: 550px;
+}
+
+.section-centered {
+    text-align: center;
+}
+
+.section {
+    margin: 14px;
+    text-align: center; /* Temporary until I have more content */
+}
+
+.portrait-picture {
+    border-radius: 50%;
+    padding: 4px;
+    border-style: dashed;
+    width: 250px;
+}
+
+.column-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    padding: 14px 8px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.links img {
+    height: 48px;
+    width: 48px;
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 24px 8px;
+}
