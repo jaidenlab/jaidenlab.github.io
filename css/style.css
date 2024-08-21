@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-    padding: 44px 4px;
+    margin: 44px 4px 0px;
     height: 100%;
     max-width: 550px;
 }
@@ -72,5 +72,5 @@ a {
 
 .footer {
     text-align: center;
-    padding: 24px 8px;
+    margin: 24px 8px;
 }
