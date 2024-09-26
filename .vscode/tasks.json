@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Jekyll Build",
+            "type": "shell",
+            "command": "jekyll",
+            "args": ["build"],
+            "group": "build"
+        },
+        {
+            "label": "Jekyll Serve",
+            "type": "process",
+            "command": "jekyll",
+            "args": ["serve"],
+            "group": "build"
+        }
+    ]
+}

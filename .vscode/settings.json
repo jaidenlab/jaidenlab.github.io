@@ -1,0 +1,11 @@
+{
+    "[liquid]": {
+        "editor.defaultFormatter": "sissel.shopify-liquid"
+    },
+
+    "liquid.engine": "jekyll",
+
+    "files.associations": {
+        "*.html": "liquid"
+    }
+}
