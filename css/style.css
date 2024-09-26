@@ -8,8 +8,29 @@ html, body {
 }
 
 body {
-    background-color: #fffff0;
+    background-color: #660d0a;
     font-family: sans-serif;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+
+header {
+    background-color: white;
+    color: black;
+}
+
+/* Remove default margin */
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
 }
 
 h1 {
@@ -18,12 +39,6 @@ h1 {
 
 h3 {
     font-size: 1.25rem;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #dd4444;
 }
 
 .container {
@@ -88,11 +103,6 @@ a {
 }
 .links li:nth-child(4) {
     animation-delay: 1.25s;
-}
-
-.footer {
-    text-align: center;
-    margin: 24px 8px;
 }
 
 @keyframes fadeInOpacity {
